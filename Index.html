@@ -7,184 +7,189 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    
+    <!--Bootstrap Icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
     <title>My Portfolio</title>
   </head>
   <body>
-      <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color:rgba(00,00,00,0.8);">
-  <a style="font-family:Times New Roman;"class="navbar-brand" href="#">RikoRaditya</a>
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<div class="container">
+    <a class="navbar-brand" href="#">RikoRaditya</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-     <li class="nav-item dropdown">
-        <a style="font-family:Times New Roman;" class="text-white nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Social Media
-        </a>
-        <div style="background-color:rgba(ff,ff,ff,0.3);"class="text-white dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a style="font-family:Times New Roman; " class="dropdown-item" href="https://free.facebook.com/rikokiding.3?refid=8">Facebook</a>
-          <a style="font-family:Times New Roman;" class="dropdown-item" href="https://www.instagram.com/riko_raditya19/">Instagram</a>
-          <a style="font-family:Times New Roman;" class="dropdown-item" href="https://youtube.com/c/RikoRaditya">Youtube</a>
-        </div>
-
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Galery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Me</a>
       </li>
     </ul>
   </div>
+</div>
 </nav>
+    <!--Akhir Navbar-->
     
-<!--jumbotron-->
-<div class="jumbotron text-center">
-  <img src="foto.jpg" class=" rounded-circle">
-  <h1>Riko Raditya</h1>
-  <p>YouTuber | Web Developer</p>
-</div>
-<!--akhir jumbotron-->
+    <!--jumbotron-->
+    <section class="jumbo text-center">
+    <img class="mt-5 img-thumbnail rounded-circle"src="foto.JPG" width="180">
+  <h2 class="display-5">Riko Raditya</h2>
+  <p class="lead">YouTuber | Web Developer | Gamers</p> 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L40,37.3C80,43,160,53,240,53.3C320,53,400,43,480,64C560,85,640,139,720,154.7C800,171,880,149,960,122.7C1040,96,1120,64,1200,69.3C1280,75,1360,117,1400,138.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
 
-
-<!--about-->
-<section class="about" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h4 class="text-center">About</h4>
-        <hr>
-        
-      </div>
-    </div>
+    <!--Akhir Jumbotron-->
     
-    
-    <div class="row">
-      <div class=" col-sm-6 col-offset-1">
-        <p>Selamat Datang di Website Saya Guys, Jangan Lupa Bantu Supoort Channel YT Saya Ya Cuy!! Mudah Mudahan Tahun Ini Bisa Mencapai 10K Subscriber Aminnn,Astungkara...  </p>
-      </div>
-         <div class="col-sm-6">
-           <p>Terimakasih Buat Yang Udah Mampir di Web saya ini guys,Terimakasih Udah Support Saya Sampai Detik ini dan,  Terimakasih buat yang Udah Pencet Tombol Subscribe...</p>
-         </div>
-         
-       </div>
-    </div>
-  </div>
-</section>
-<!--akhir about-->
-
-
-<!--portfolio-->
-<section class="portfolio" id="portfolio">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-sm-12">
-        <h4>Portfolio</h4>
-        <hr>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="1.jpeg">
-        </a>
-      </div>
-        <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="2.jpeg">
-        </a>
-      </div>
-        <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="3.jpeg">
-        </a>
-      </div>
-        <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="4.jpeg">
-        </a>
-      </div>
-        <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="5.jpeg">
-        </a>
-      </div>
-        <div class="col-sm-4 mt-3">
-        <a href="">
-          <img class="thumbnail"width="100%" src="6.jpeg">
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-<!--akhir portfolio-->
-
-
-<!--contact-->
-<section class="contact" id="contact">
- <div class="container">
-    <div class="row">
-    <div class="col-sm-12 mt-3">
-      <h4 class="text-center">Contact</h4>
-      <hr>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-sm-12">
-      <form>
-        <div class="form-group">
-          <label for="nama">Nama</label>
-          <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+    <!--About-->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h4>About</h4>
+            <hr>
           </div>
-             <div class="form-group">
-            <label for="email">Email</label>
-             <input type="email" id="email" class="form-control" placeholder="Masukkan Email">
-             </div>
-                <div class="form-group">
-               <label for="telp">No. Telepon</label>
-             <input type="tel" id="telp" class="form-control" placeholder="Masukkan Nomor Telepon">
-             </div>
-             <select class="form-control">
-               <option>--Pilih Kategori--</option>
-                 <option>Web Developer</option>
-                   <option>Web Design</option>
-             </select>
-             <div class="form-group">
-               <label for="pesan">Pesan</label>
-               <textarea class="form-control" rows="10
-              " placeholder="Masukkan Pesan"></textarea>
-             </div>
-             <button type="submit" class="btn btn-primary">Kirim Pesan</button>
         </div>
-      </form>
-    </div>
-  </div>
- </div>
-</section>
-<!--akhir contact-->
-
-
-<!--footer-->
-<footer class="footer" id="footer">
-<div class="container">
-    <div class="row">
-    <div class="col-sm-12">
-      <p class="text-center">&copy; Copyright 2021 | bulid by. <a href="https://www.instagram.com/riko_raditya19/">RikoRaditya</a></p>
-    </div>
+        <div class="row text-justify justify-content-center">
+          <div class="col-sm-6">
+            <p>Selamat datang di Website Portfolio Saya, Mudah Mudahan dengan Web ini Anda Terkejuet Tercengang Cengang Melihat Karya Saya ini yg Indah Bagaikan Surga, Gak kayak anda buriq kek sampah, hehe canda sampah...</p>
+          </div>
+            <div class="col-sm-6">
+            <p>Keahlian saya, Saya Bisa Semua aktifitas yg ad di dunia ini, anjay saya kan pinter, anda? sampah? hahaha, Canda Sampah, saya bisa Bahasa Pemrograman HTML, JavaScript, PHP, Ruby, Python, Dll...</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,128L34.3,133.3C68.6,139,137,149,206,181.3C274.3,213,343,267,411,240C480,213,549,107,617,106.7C685.7,107,754,213,823,218.7C891.4,224,960,128,1029,101.3C1097.1,75,1166,117,1234,133.3C1302.9,149,1371,139,1406,133.3L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!--Akhir About-->
+    
+    <!--Project-->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h4>Project</h4>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="1.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
+            
+          </div>
+            <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="3.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            
+          </div>
+            <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="3.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            
+          </div>
+            <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="4.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            
+          </div>
+            <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="5.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            
+          </div>
+            <div class="col-sm-4 mb-3">
+<div class="card">
+  <img src="6.jpeg" alt="project1">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+            
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L34.3,144C68.6,160,137,192,206,224C274.3,256,343,288,411,288C480,288,549,256,617,202.7C685.7,149,754,75,823,74.7C891.4,75,960,149,1029,154.7C1097.1,160,1166,96,1234,74.7C1302.9,53,1371,75,1406,85.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </section>
+    <!--Akhir Project-->
+    
+    <!--contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h4>Contact Me</h4>
+            <hr>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <form>
+  <div class="form-group">
+    <label for="name">Nama</label>
+    <input type="text" class="form-control" id="name" aria-describedby="name">
+  </div>
+    <div class="form-group">
+    <label for="email">Email </label>
+    <input type="email" class="form-control" id="email" aria-describedby="email">
+  </div>
+  <div class="form-group">
+    <label for="pesan">Pesan</label>
+    <textarea class="form-control" id="pesan" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Kirim</button>
+</form>
+          </div>
+        </div>
+        </div>
+      </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="0.9" d="M0,192L40,170.7C80,149,160,107,240,106.7C320,107,400,149,480,149.3C560,149,640,107,720,90.7C800,75,880,85,960,122.7C1040,160,1120,224,1200,224C1280,224,1360,160,1400,128L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!--Akhir Cobtact-->
+    
+    
+    
+    
+    <!--footer-->
+<footer class="text-center bg-primary text-white p-3">
+  <p>Created with <i class="bi bi-heart-fill text-danger"></i> by. <a href="https://www.instagram.com/riko_raditya19/"class="text-white font-weight-bold">RikoRaditya</a></p>
 </footer>
-<!--akhir footer-->
-
+    <!--Akhir Footer-->
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="bootstrap.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
